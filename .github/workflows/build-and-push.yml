@@ -35,4 +35,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ steps.prep.outputs.tagged_image }}
+          tags: ${{ steps.setup.outputs.tagged_image }}
