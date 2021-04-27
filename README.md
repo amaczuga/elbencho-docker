@@ -1,4 +1,5 @@
-# elbencho (A distributed storage benchmark for file systems and block devices with support for GPUs)
+# elbencho
+A distributed storage benchmark for file systems and block devices with support for GPUs
 
 [elbencho](https://github.com/breuner/elbencho) in a docker. 
 
@@ -6,7 +7,7 @@ Saves you installation time, ready to use.
 
 ## Usage example
 
-```bash
+```
 # docker run --rm uglyb0b/elbencho:v1.8-1 --help
 elbencho - A distributed benchmark for file systems and block devices
 
