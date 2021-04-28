@@ -28,7 +28,7 @@ RUN cd /usr/local/elbencho && \
 
 FROM bitnami/minideb:buster-snapshot-20210425T215215Z
 MAINTAINER https://github.com/breuner
-LABEL packager="https://github.com/ug1yb0b"
+LABEL packager="https://github.com/ug1ybob"
 COPY --from=builder /usr/local/elbencho/packaging/*.deb /root/
 RUN install_packages /root/*.deb
 

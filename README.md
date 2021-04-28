@@ -8,7 +8,7 @@ Saves you installation time, ready to use.
 ## Usage example
 
 ```
-# docker run --rm uglyb0b/elbencho:v1.8-1 --help
+# docker run --rm ug1ybob/elbencho:v1.8-1 --help
 elbencho - A distributed benchmark for file systems and block devices
 
 Version: 1.8-0
@@ -31,7 +31,7 @@ See all available options (e.g. csv file output):
   $ elbencho --help-all
 
 Happy benchmarking!
-# docker run -t --rm --device /dev/sda uglyb0b/elbencho:v1.8-1 -r -b 4K --lat --direct --rand --size 1g /dev/sda
+# docker run -t --rm --device /dev/sda ug1ybob/elbencho:v1.8-1 -r -b 4K --lat --direct --rand --size 1g /dev/sda
 OPERATION RESULT TYPE        FIRST DONE  LAST DONE
 ========= ================   ==========  =========
 READ      Elapsed ms       :       6001       6001
